@@ -10,6 +10,7 @@
   "author": "Daniel Martins Alves",
   "license": "ISC",
   "dependencies": {
+    "@openbci/utilities": "^1.0.0",
     "express": "^4.16.4",
     "openbci-cyton": "^1.1.3"
   },
