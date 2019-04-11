@@ -27,8 +27,8 @@ const portName = "COM3";
    .then((ports) => {
      console.log('ports', JSON.stringify(ports));
    });*/
-ourBoard.connect(portName) // Port name is a serial port name, see `.listPorts()` -------- porta real
-//ourBoard.connect(k.OBCISimulatorPortName) // Port name is a serial port name, see `.listPorts()` ---------- porta simulada
+//ourBoard.connect(portName) // Port name is a serial port name, see `.listPorts()` -------- porta real
+ourBoard.connect(k.OBCISimulatorPortName) // Port name is a serial port name, see `.listPorts()` ---------- porta simulada
 
   .then(() => {
     ourBoard.streamStart();
